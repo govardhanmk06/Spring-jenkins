@@ -14,6 +14,7 @@ public class SpringJenkinsApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info("===Test case Executing====");
+		logger.info("===Test case Executing second log statement====");
 		
 		assertEquals(true,true);
 	}
